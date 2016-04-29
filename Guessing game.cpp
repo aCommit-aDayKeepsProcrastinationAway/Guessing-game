@@ -15,7 +15,7 @@ int main ()			// Had to write everything in void functions because main can't ca
 
 void game ()
 {
-	bool gamefinished = false;
+    bool gamefinished = false;
     int rand_n, guess, max_n;
     string difficulty;
     srand(time(0));
