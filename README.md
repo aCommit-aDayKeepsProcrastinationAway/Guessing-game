@@ -1,7 +1,7 @@
 # Guessing-game v1.2
 
   A number guessing game in C++. Currently very simple. 
-Planning to add following features:
+##Planning to add following features:
 
 ~~1.Add a play again dialogue~~ Status: Finished.
 
@@ -13,18 +13,18 @@ Planning to add following features:
 
 Need to make a scoretable with a proper structure, not sure how at the moment.
 
-Changelog:
+## Changelog:
 
-v1.2
+### v1.2
 
-Added difficulties easy(0-100), medium(0-1000) and hard(0-10000)
+* Added difficulties easy(0-100), medium(0-1000) and hard(0-10000).
 
-v1.1
+### v1.1
 
-After rewriting added an option to play again
+* After rewriting added an option to play again
 
-Rewrote whole game to use two void functions instead of main, main currently only calls first void function which is the engine
+* Rewrote whole game to use two void functions instead of main, main currently only calls first void function which is the engine.
 
-v1.0
+### v1.0
 
-Made the game. No additional features.
+* Made the game. No additional features.
