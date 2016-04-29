@@ -7,6 +7,8 @@ Planning to add following features:
 
 ~~2.Add levels: Easy, Medium, Hard.~~ Status: Finished.
 
-3.Add a scoretable which shows how much guesses it took and history of your guesses
+3.Add a scoretable which shows how much guesses it took and history of your guesses Status: On hold
 
-4.Also add a number showing difference between your guess and the actual number in scoretable colored respectively (green, red)
+4.Also add a number showing difference between your guess and the actual number in scoretable colored respectively (green, red) Status: On hold
+
+Need to make a scoretable with a proper structure, not sure how at the moment.
