@@ -5,7 +5,7 @@ Planning to add following features:
 
 ~~1.Add a play again dialogue~~ Status: Finished.
 
-2.Add levels: Easy, Medium, Hard.
+~~2.Add levels: Easy, Medium, Hard.~~ Status: Finished.
 
 3.Add a scoretable which shows how much guesses it took and history of your guesses
 

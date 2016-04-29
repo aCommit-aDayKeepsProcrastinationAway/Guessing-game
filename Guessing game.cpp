@@ -7,7 +7,7 @@ using namespace std;
 void game ();
 void gamereset();
 
-int main ()			// Had to write everything in functions because main can't call itself
+int main ()			// Had to write everything in void functions because main can't call itself
 {
 	game();
   	return 0;
@@ -16,10 +16,26 @@ int main ()			// Had to write everything in functions because main can't call it
 void game ()
 {
 	bool gamefinished = false;
-    int rand_n, guess;
+    int rand_n, guess, max_n;
+    string difficulty;
     srand(time(0));
-    rand_n = rand() % 101;
-    cout << "A random number between 0 and 100 has been choosen. " << endl;
+    cout << "Choose game difficulty: easy medium hard" << endl;	cin >> difficulty;
+    if (difficulty == "easy") 
+    	{
+    		rand_n = rand() % 101;
+    		max_n = 100;
+    	}
+    else if (difficulty == "medium") 
+    	{
+    		rand_n = rand() % 1001;
+    		max_n = 1000;
+    	}
+    else if (difficulty == "hard") 
+    	{
+    		rand_n = rand() % 10001;
+    		max_n = 10000;
+    	}
+    cout << "A random number between 0 and " << max_n << " has been choosen. " << endl;
     while (!gamefinished)
     {
         cout << "Take a guess: "; cin >> guess;
