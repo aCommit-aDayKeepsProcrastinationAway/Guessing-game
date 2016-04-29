@@ -3,7 +3,7 @@
   A number guessing game in C++. Currently very simple. 
 Planning to add following features:
 
-1.Add a play again dialogue
+~~1.Add a play again dialogue~~ Status: Finished.
 
 2.Add levels: Easy, Medium, Hard.
 
